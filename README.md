@@ -1,28 +1,28 @@
 Notes App 📝
 
-#Flutter App for managing notes.
+A Flutter application for managing notes.
 
-#SQLite for local data storage.
+Utilizes SQLite for local data storage.
 
 Features:
 
-#Create: ✍️ Create new notes.
-#Read: 📖 View all saved notes.
-#Update: ✏️ Edit existing notes.
-#Delete: 🗑️ Delete notes.
-#CleanUI: ✨ Modern & user-friendly Material Design.
-#LoadingStates: ⏳ Handles loading and displays errors.
-#EmptyState: 📭 Displays a message when no notes exist.
-#ResponsiveBottomSheet: 📱 For adding/editing on mobile.
+Create: ✍️ Create new notes with titles and descriptions.
+Read: 📖 View a list of all saved notes.
+Update: ✏️ Edit existing notes.
+Delete: 🗑️ Delete notes with confirmation.
+Clean UI: ✨ Modern and user-friendly Material Design.
+Loading States: ⏳ Handles loading states and displays errors.
+Empty State: 📭 Provides a user-friendly message when no notes exist.
+Responsive Bottom Sheet: 📱 For adding/editing notes.
 Dependencies:
 
-#flutter: 📱 The core Flutter SDK.
-#sqflite: 💾 For SQLite database interaction.
-#path_provider: 📁 For accessing local storage paths.
-#path: 📂 For path manipulation.
+flutter: 📱 The core Flutter SDK.
+sqflite: 💾 For SQLite database interaction.
+path_provider: 📁 For accessing local storage paths.
+path: 📂 For path manipulation.
 Installation:
 
-#AddDependencies: ➕ Add to pubspec.yaml:
+Add Dependencies: ➕ Add to pubspec.yaml:
 YAML
 
 dependencies:
@@ -34,13 +34,11 @@ dependencies:
 
 environment:
   sdk: ">=2.19.0 <4.0.0"
-#GetDependencies: 🔄 Run flutter pub get.
-#ImportPackages: 📥 Import in your Dart files:
+Get Dependencies: 🔄 Run flutter pub get.
+Import Packages: 📥 Import in your Dart files:
 Dart
 
 import 'package:sqflite/sqflite.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:path/path.dart';
 Note: This README provides a basic overview. For detailed information, refer to the project's source code and documentation.
-
-I've added more hashtags to categorize sections and keywords. I've also slightly refined the wording for better clarity.
